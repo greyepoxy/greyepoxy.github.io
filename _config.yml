@@ -9,7 +9,7 @@ name: Justin (@greyepoxy)
 description: These are the ramblings of a programmer from the pacific northwest.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: {{ site.baseurl }}/images/avatar.png
+avatar: https://raw.githubusercontent.com/greyepoxy/greyepoxy.github.io/master/images/avatar.png
 
 #
 # Flags below are optional
