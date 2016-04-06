@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi! I am a programmer from the pacific northwest. Since graduating as a Computer engineer in 2012 I have had the great pleasure in designing  silicon chips, programming microcontrollers, building games, working on applications, web programming and almost everything in between.
+Hi! I am a programmer from the pacific northwest. Since graduating as a Computer engineer in 2012 I have spent time designing  silicon chips, programming microcontrollers, coding video games, working on applications, web programming, and also many other programming related topics.
 
 ### More Information
 
