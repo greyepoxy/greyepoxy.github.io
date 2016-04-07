@@ -5,7 +5,7 @@ title: The Story So Far
 
 For the past two years I have been spending a significant amount of time torwards the goal of programming chess in the browser. The aim was to allow players to be able to play against one another remotly. While I have gotten part of the way to this goal what has actually happened is that I have learned a decent amount about different web programming approaches. Maybe one day I will have chess working completly, but considering that I am not actually a huge fan of chess (I know crazy considering I spent contless hours of my free time programming it) I would rather move onto something else. So now that I have spoiled the ending lets spoil it even further. Here is a screen shot of the current (maybe final) product.
 
-[<img src="{{ site.baseurl }}/images/ChessInElm.jpg" alt="ChessWrittenInElm" style="width: 800px;"/>]({{ site.baseurl }}/images/ChessInElm.jpg)
+[<img src="{{ site.baseurl }}/images/ChessInElm.jpg" alt="ChessWrittenInElm" style="width: 800px;"/>]({{ site.baseurl }}/images/2016-4-5-The-Story-So-Far/ChessInElm.jpg)
 No seriously this is it, so yeah the ending has been spoiled so quit now. No point in continuing.
 
 If I had been a smarter man I might have taken some screen shots throughout the process to better show off the stepping stones, but (un)fortunetly I am not. Most of the stepping stones are blocks of code anyway which lives on in source control forever. In a follow up post I will have some more screen shots showing off the game in action (instead of one that looks like it was ripped from [google](https://www.google.com/search?tbm=isch&q=svg+chess+board)). With the power of github pages as well should be able to link to some live demos.
@@ -22,7 +22,7 @@ While I won't dig into all of it here it the path that I have taken to get to th
 1. I liked elm so much that I decided to re-implement chess in it. This leads to a energic, exiting but ultimatly dissaponting relatioship with elm. Likely I will dig into this further at some point (the screen shot above is actually from the elm implementation).
 
 Some might say that this is 6 steps to many, but I like to argue its probably still one step to few. I suspect that more then likely I am just making a big deal over nothing.
-[<img src="{{ site.baseurl }}/images/ErmahgerdTrnershberl.jpg" alt="ChessWrittenInElm" style="width: 800px;"/>]({{ site.baseurl }}/images/ErmahgerdTrnershberl.jpg)
+[<img src="{{ site.baseurl }}/images/ErmahgerdTrnershberl.jpg" alt="ChessWrittenInElm" style="width: 800px;"/>]({{ site.baseurl }}/images/2016-4-5-The-Story-So-Far/ErmahgerdTrnershberl.jpg)
 
 
 Thanks for reading, I hope to follow up with more specifics of the more interesting thought processes and discoveries.   
