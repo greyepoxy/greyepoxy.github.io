@@ -1,11 +1,11 @@
 ---
 layout: post
-title: The Story So Far
+title: How I became a Functional Programmer
 ---
 
 For the past two years I have spent a significant amount of time towards the goal of programming chess in the browser. The aim was to enable players to play against one another remotely. While I have gotten only part of the way to this goal I have managed to learn a lot about many different web programming approaches. Since constant learning is a lifelong ambition, I would call the overall effort a success! Maybe one day I will stick with a method long enough to get chess working completely, but considering that I am not actually a huge fan of chess (I know crazy considering I have spent hours of my free time programming towards that goal) I would rather move onwards to something else. So now that I have spoiled the ending, lets spoil it even further. Here is a screen shot of the current (maybe final) product.
 
-[<img src="{{ site.baseurl }}/images/2016-4-5-The-Story-So-Far/ChessInElm.jpg" alt="ChessWrittenInElm" style="width: 800px;"/>]({{ site.baseurl }}/images/2016-4-5-The-Story-So-Far/ChessInElm.jpg)
+[<img src="{{ site.baseurl }}/images{{ page.url }}ChessInElm.jpg" alt="ChessWrittenInElm" style="width: 800px;"/>]({{ site.baseurl }}/images{{ page.url }}ChessInElm.jpg)
 No seriously this is it... so yeah, I spoiled the ending... quit now. No point in continuing.
 
 If I had been a smarter man I might have taken some screen shots throughout the process to better show off the stepping-stones, but (un)fortunately I am not. Most of the stepping-stones are blocks of code anyway, which lives on in source control forever. In a follow-up post I will have some more screen shots showing off the game in action (instead of one that looks like it was ripped from [google](https://www.google.com/search?tbm=isch&q=svg+chess+board)). With the power of github pages I plan on also linking to some live demos.
@@ -22,7 +22,7 @@ So here is a summary of the path that I took to get to the product above.
 1. Elm really drove home a lot of the functional programming and reactive concepts that I had been learning. I even decided that I liked elm so much that I decided to completely re-implement chess, all in elm! This lead to an energetic, exiting but ultimately disappointing relationship with elm. The current plan is to dig into elm further with a 'the good, the bad, and the ugly' follow up post (the screen shot above is actually from the elm implementation).
 
 Some might say that this is 6 steps to many, but I like to argue it’s probably still one step to few. I suspect that more than likely I am just making a big deal over nothing.
-[<img src="{{ site.baseurl }}/images/2016-4-5-The-Story-So-Far/ErmahgerdTrnershberl.jpg" alt="ChessWrittenInElm" style="width: 800px;"/>]({{ site.baseurl }}/images/2016-4-5-The-Story-So-Far/ErmahgerdTrnershberl.jpg)
+[<img src="{{ site.baseurl }}/images{{ page.url }}ErmahgerdTrnershberl.jpg" alt="ChessWrittenInElm" style="width: 800px;"/>]({{ site.baseurl }}/images{{ page.url }}ErmahgerdTrnershberl.jpg)
 
 
 Thanks for reading, I hope to follow up with more specifics on the more interesting thought processes and discoveries.
