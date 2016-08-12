@@ -28,7 +28,7 @@ Then, what makes a good code change?
 1. Code changes {{should be done in a way | passive}} that minimizes complexity - What do I mean by complexity? Check out this [Taming Complexity with Reversibility](https://www.facebook.com/notes/kent-beck/taming-complexity-with-reversibility/1000330413333156/) from Kent Beck at Facebook for the background and how Facebook solves this problem. An example of this is emphasizing simplicity to enhance readability. We can only keep so much in our short term memory so the code should be written in a way to minimize what we need to remember.
 1. The change needs to work as expected – This needs to be true in both the coder’s and the customer’s minds. The means no bugs, but also that data needs to be collected to understand if the code works as the customer expects. 
 
-{{Each | Every one}} of these four {{things | more specific noun }} are equally important for a safe code change that should make future changes by any teammate just as {{difficult | making this more difficult seems like the opposite of the intention :) }} if not easier than the current change {{run on / awkward}}.
+{{Each | Every one}} of these four {{things | more specific noun }} are equally important for a safe code change that should make future changes by any teammate {{just as difficult | "just as difficult" make it sound like you are making things even more difficult :) }} if not easier than the current change {{run on / awkward}}.
 
 
 ## Stepping Out of the Theory
@@ -42,7 +42,7 @@ One of the main catalysts to {{this theory | theory of what? }} forming in my mi
 
 I had heard of refactoring in the past but did not truly embrace how powerful it can be until I was forced to constantly make changes to simplify my designs. {{So many great resources on refactoring | this sentence starts oddly}}, if you are looking for a book I suggest Martin Fowler’s [Refactoring: Improving the Design of Existing Code]( https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672), Joshua Kerievsky’s [Refactoring to Patterns]( https://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351/), and if you are working in a legacy codebase Micheal Feather’s [Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/).
 
-Also, depending on your programming language. there are some great automated refactoring tools. For example, [Resharper](https://www.jetbrains.com/resharper/) is kind of the gold standard for C# development. An automated refactoring tool makes the process of learning most of the basic refactoring’s much easier. It is as simple as highlighting something and asking your IDE to “refactor this.”
+Also, depending on your programming language, there are some great automated refactoring tools. For example, [Resharper](https://www.jetbrains.com/resharper/) is kind of the gold standard for C# development. An automated refactoring tool makes the process of learning most of the basic refactoring’s much easier. It is as simple as highlighting something and asking your IDE to “refactor this.”
 
 If all the potential refactorings are a little overwhelming, I suggest checking out Arlo Belshee’s [The Core 6 Refactorings](http://arlobelshee.com/the-core-6-refactorings/).
 
