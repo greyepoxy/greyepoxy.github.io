@@ -18,6 +18,7 @@ Given this goal, what is the best way to solve the customer’s problem? To answ
 Before going any further, I should clarify what I mean by bug. I like to aim for Arlo’s definition [anything surprising, confusing or disappointing to anyone]( https://twitter.com/arlobelshee/status/719525545805881345). So with that definition, and given that we should expect to make lots of changes, there are a couple things we need to avoid. First, too much upfront architecture work, as it would end up being a waste of time. Second, over generalizing our solutions. We have a time budget, and there's no time for that! Finally, we cannot allow team members to become bottlenecks. When a team member leaves or goes on vacation, anyone else should be able to accomplish the same coding tasks in about the same amount of time.
 
 Then what defines a sustainable change?
+
 1. Readable code - Anyone should be able to quickly read and understand what the code is doing and why.
 1. Code should be tested - This is critical for ensuring that future changes are safe.
 1. Code changes should minimize complexity - What do I mean by complexity? Check out this post [Taming Complexity with Reversibility](https://www.facebook.com/notes/kent-beck/taming-complexity-with-reversibility/1000330413333156/) from Kent Beck at Facebook for some background and how Facebook solves this problem. One example of this is emphasizing simplicity to enhance readability. We can only keep so much in our short term memory so the code should be written in a way to minimize what we need to remember.
@@ -26,6 +27,7 @@ Then what defines a sustainable change?
 I listed these points out in a numbered list but I do not view one as more important than the others. Equal attention must be paid to them all, to ensure that future changes are quick to make and bug free.
 
 ## Practical Tips for Sustainable Changes
+
 ### Measuring Code Complexity
 When determining the complexity of a piece of code, we can take advantage of the fact that tests are easier to write for less complex code. This can be used as a simple feedback loop. Are the tests easy to write? If not, then reduce the complexity. An example might be decoupling from or removing global state. Another approach is to evaluate the answers to the following questions. Is there any redundancy? Is the coupling between dependencies minimized and obvious? Does the code have strong cohesion? Is the correct encapsulation enforced? The solution that better answers these questions is less complex.
 
@@ -43,6 +45,7 @@ Truthful names are the best way to make code more readable. If I am reading a pi
 
 ### Writing Great Tests
 There are a lot of different approaches to writing tests, but I like to follow these rules:
+
 1. Tests need to be fast (<10 ms) or I won’t run them frequently enough. 
 1. Tests need to be 100% reliable. If a test fails the code is wrong or the test needs to be updated. This is for sustainability; as the number of tests scales, I do not have time to figure out if an error was “expected” or not. 
 1. No two tests should test the same thing. This is also for sustainability: when I make a behavior change, it should not take forever to update the test suite.
