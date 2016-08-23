@@ -7,6 +7,7 @@ Check it out at <http://greyepoxy.github.io>
 **Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup ([Jekyll Now Repository](https://github.com/barryclark/jekyll-now)).
 
 ### Future Post Ideas
+
 1. How I became a functional programmer.
 1. What has TDD done for me?
 1. The state of mixins in JavaScript and Typescript. My approach (ExtendableObjects).
